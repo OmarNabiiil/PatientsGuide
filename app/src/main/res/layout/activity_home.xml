@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#dad3d3"
+    tools:context="com.example.fouaad.hospitalstracker.HomeActivity">
+
+    <TextView
+        android:id="@+id/txt_username"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:background="#FFF"
+        android:layout_gravity="center_horizontal"
+        android:text="Name : Omar Nabil"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:padding="8dp"/>
+
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#FFF"
+        android:text="Search for nearby hospitals"
+        android:onClick="Search"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#FFF"
+        android:text="View my previous visits"
+        android:onClick="Previous"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="call ambulance"
+        android:clickable="true"
+        android:onClick="Call"
+        android:textSize="16sp"
+        android:padding="5dp"
+        android:background="#ba0000"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="italic"
+        android:textColor="#FFF"/>
+
+</LinearLayout>

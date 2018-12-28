@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#dad3d3"
+    tools:context=".AddHospitalActivity">
+
+    <EditText
+        android:id="@+id/txt_hospitalName"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFF"
+        android:layout_gravity="center_horizontal"
+        android:inputType="text"
+        android:hint="Hospital name"
+        android:padding="8dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <EditText
+        android:id="@+id/txt_rating"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="#FFF"
+        android:layout_gravity="center_horizontal"
+        android:inputType="numberDecimal"
+        android:hint="Hospital rating"
+        android:padding="8dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <EditText
+        android:id="@+id/txt_department"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="#FFF"
+        android:layout_gravity="center_horizontal"
+        android:inputType="text"
+        android:hint="Department name"
+        android:padding="8dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <EditText
+        android:id="@+id/txt_doctor"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="#FFF"
+        android:layout_gravity="center_horizontal"
+        android:inputType="text"
+        android:hint="Doctor name"
+        android:padding="8dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <EditText
+        android:id="@+id/txt_startTime"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="#FFF"
+        android:layout_gravity="center_horizontal"
+        android:inputType="time"
+        android:hint="Doctor start time"
+        android:padding="8dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <EditText
+        android:id="@+id/txt_endTime"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="#FFF"
+        android:layout_gravity="center_horizontal"
+        android:inputType="time"
+        android:hint="Doctor end time"
+        android:padding="8dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <EditText
+        android:id="@+id/txt_pricesRange"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="#FFF"
+        android:layout_gravity="center_horizontal"
+        android:hint="Prices range"
+        android:padding="8dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#FFF"
+        android:text="add"
+        android:onClick="AddHospital"/>
+
+</LinearLayout>

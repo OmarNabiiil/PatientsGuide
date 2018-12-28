@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:textSize="16sp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_visit"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/buttonOne"
+            android:elevation="40dp"
+            android:onClick="Visit"
+            android:textColor="#FFF"
+            android:padding="15dp"
+            android:text="visit"/>
+
+        <Button
+            android:id="@+id/btn_rate"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/buttonTwo"
+            android:elevation="40dp"
+            android:onClick="Rate"
+            android:enabled="false"
+            android:textColor="#FFF"
+            android:padding="15dp"
+            android:text="Rate"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
